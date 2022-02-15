@@ -28,18 +28,22 @@
 
 ## Start
 
-- First page/screen
+- First screen
     - Home Screen
+- Second screen
     - Simple Counter
         - `useState`
         - `TouchableOpacity, Text, View`
+- Navigation
     - Simple Navigation
         - Go between `Home` and `Counter`
+- Prep for backend connection
     - Constants
         - Use for API URL
             - Easy to change and call everywhere
         - `GET /api` and parse `message: "Welcome to the Todos API"`
         - Ensure `GET` request works
+- Connect with navigation
     - Navigation Revisited
         - Add route to `Get`
         - Navigate to `Get` Screen
