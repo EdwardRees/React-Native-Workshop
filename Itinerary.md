@@ -48,4 +48,9 @@
         - Add route to `Get`
         - Navigate to `Get` Screen
 
+## Additional Notes
+
+- The [Guide](https://reactnative.dev/docs/getting-started) and [API Reference](https://reactnative.dev/docs/accessibilityinfo) are both incredibly helpful
+- For rendering lists, using a FlatList may help
+
 ## Questions?
