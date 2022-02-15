@@ -10,5 +10,6 @@ port = 8080 # Might be 8000 for you, depends on what the server is listening on
 
 info = {"id": ip, "port": port}
 
+# Creates the file for us to know where to connect to
 with open("ip.txt", "w") as f:
     f.write(str(info))
