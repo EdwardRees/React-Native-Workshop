@@ -52,5 +52,6 @@
 
 - The [Guide](https://reactnative.dev/docs/getting-started) and [API Reference](https://reactnative.dev/docs/accessibilityinfo) are both incredibly helpful
 - For rendering lists, using a FlatList may help
+- Class v Functional Components differ, generally we'll use Functional Components now as they're lighter weight.
 
 ## Questions?
