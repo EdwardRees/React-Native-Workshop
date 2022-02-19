@@ -6,3 +6,18 @@ const Home = () => { // Actual Component that we'll call and use
 }
 
 export default Home; // Same as module.exports; Exports the Home component and allows us to import it and use it elsewhere.
+
+/*
+  views 
+  - Home.jsx
+  
+  components
+  constants
+
+*/
+
+
+/*
+  function Home() {}  ==== const Home = () -> {}
+
+*/
