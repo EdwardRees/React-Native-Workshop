@@ -5,12 +5,16 @@ import { useNavigation } from "@react-navigation/native"; // Get access to navig
 const Home = () => {
   const navigation = useNavigation(); // Get access to navigation
   // Actual Component that we'll call and use
-  
+
   return (
-    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
       <Text>Hello World</Text>
-      <TouchableOpacity onPress={() => navigation.navigate("Counter")}><Text>Go to Counter</Text></TouchableOpacity>
-      <TouchableOpacity onPress={() => navigation.navigate("Get")}><Text>Go to Get</Text></TouchableOpacity>
+      <TouchableOpacity onPress={() => navigation.navigate("Counter")}>
+        <Text>Go to Counter</Text>
+      </TouchableOpacity>
+      <TouchableOpacity onPress={() => navigation.navigate("Get")}>
+        <Text>Go to Get</Text>
+      </TouchableOpacity>
     </View>
   ); // The view itself
 };
